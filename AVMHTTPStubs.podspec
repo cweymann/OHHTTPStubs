@@ -30,9 +30,9 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.ios.deployment_target = '15.0'
-  s.osx.deployment_target = '10.9'
-  s.watchos.deployment_target = '2.0'
-  s.tvos.deployment_target = '9.0'
+  s.osx.deployment_target = '10.13'
+  s.watchos.deployment_target = '8.0'
+  s.tvos.deployment_target = '15.0'
   s.swift_versions = ['3.0', '3.1', '3.2', '4.0', '4.1', '4.2', '5.0', '5.1']
 
   s.default_subspec = 'Default'
@@ -78,9 +78,9 @@ Pod::Spec.new do |s|
 
   s.subspec 'Swift' do |swift|
     swift.ios.deployment_target = '15.0'
-    swift.osx.deployment_target = '10.9'
-    swift.watchos.deployment_target = '2.0'
-    swift.tvos.deployment_target = '9.0'
+    swift.osx.deployment_target = '10.13'
+    swift.watchos.deployment_target = '8.0'
+    swift.tvos.deployment_target = '15.0'
 
     swift.dependency 'AVMHTTPStubs/Default'
     swift.source_files = "Sources/OHHTTPStubsSwift/*.swift"

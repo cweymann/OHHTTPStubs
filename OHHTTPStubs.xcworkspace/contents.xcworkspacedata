@@ -5,7 +5,7 @@
       location = "container:"
       name = "Pod Metadata">
       <FileRef
-         location = "group:OHHTTPStubs.podspec">
+         location = "group:AVMHTTPStubs.podspec">
       </FileRef>
       <FileRef
          location = "group:CHANGELOG.md">
